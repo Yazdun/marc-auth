@@ -16,7 +16,7 @@ export const Content = ({ title = "Homepage" }) => {
         alt="marc"
       />
       <h1 className="flex flex-col items-center gap-1 font-bold uppercase">
-        <span>Mark's Auth App</span>
+        <span>Marc's Auth App</span>
         <span className="text-sm text-green-300">{title}</span>
       </h1>
       <div className="grid w-full gap-1 md:grid-cols-2">
