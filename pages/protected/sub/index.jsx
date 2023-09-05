@@ -2,7 +2,7 @@ import { Layout } from "@/components/layout";
 import { Content } from "@/components/content";
 
 export default function Home() {
-  return <Content />;
+  return <Content title="Protected Sub Route" />;
 }
 
 Home.getLayout = function getLayout(page) {
