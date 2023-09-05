@@ -9,7 +9,7 @@ export const Layout = ({ children }) => {
     <main
       className={clsx(
         inter.className,
-        "min-h-screen bg-zinc-900 flex items-center justify-center"
+        "min-h-screen p-5 bg-zinc-900 flex items-center justify-center"
       )}
     >
       {children}
